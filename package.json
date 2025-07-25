@@ -1,7 +1,7 @@
 {
   "name": "gitnifty",
   "displayName": "GitNifty",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "description": "A robust, promise-based Git utility for Node.js",
   "private": false,
   "repository": {
@@ -57,6 +57,7 @@
   },
   "release-it": {
     "git": {
+      "requireCleanWorkingDir": false,
       "commitMessage": "chore: release v${version}",
       "tagName": "v${version}"
     },
